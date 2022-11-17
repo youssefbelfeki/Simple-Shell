@@ -25,6 +25,7 @@ else if (buf[j] == ';') /* found end of this command */
 {
 buf[j] = 0; /* replace semicolon with null */
 info->cmd_buf_type = CMD_CHAIN;
+}
 else
 return (0);
 *p = j;
